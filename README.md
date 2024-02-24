@@ -1,16 +1,15 @@
-### Hi there 👋
+<h1 align="left">Who am i?</h1>
 
-<!--
-**MikeyBot111/MikeyBot111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+###
 
-Here are some ideas to get you started:
+<p align="left">My name is Mikey or Bot and I'm from Czech Republic!</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+###
+
+<h2 align="left">About me</h2>
+
+###
+
+<p align="left">👨‍💻 5+ years of experience in programming<br>💻 Skilled in Python, C#, Node.JS, with some knowledge in C++<br>🎮 Enthusiast in game development (Godot on top) and cybersecurity</p>
+
+###
