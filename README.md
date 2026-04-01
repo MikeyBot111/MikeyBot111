@@ -10,6 +10,6 @@
 
 ###
 
-<p align="left">👨‍💻 5+ years of experience in programming<br>💻 Skilled in Python, C#, Node.JS, with some knowledge in C++<br>🎮 Enthusiast in game development (#GodotOnTop) and cybersecurity</p>
+<p align="left">👨‍💻 10+ years of experience in programming<br>💻 Skilled in Python, C#, Node.JS, with some knowledge in C++<br>🎮 Enthusiast in game development (#GodotOnTop) and cybersecurity</p>
 
 ###
