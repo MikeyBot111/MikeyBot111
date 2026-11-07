@@ -4,8 +4,6 @@
 
 <p align="left">My name is Michael, but I go by Mikey or Bot, and I'm from the Czech Republic!</p>
 
-<p align="left"><img src="https://komarev.com/ghpvc/?username=MikeyBot111&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" /></p>
-
 ###
 
 <h2 align="left">About me</h2>
@@ -31,6 +29,8 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MikeyBot111/MikeyBot111/output/github-snake.svg" />
   <img alt="Contribution graph snake" width="620" src="https://raw.githubusercontent.com/MikeyBot111/MikeyBot111/output/github-snake.svg" />
 </picture>
+
+<p align="left"><img src="https://komarev.com/ghpvc/?username=MikeyBot111&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" /></p>
 
 ###
 
