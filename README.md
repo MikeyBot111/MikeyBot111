@@ -25,9 +25,9 @@
 </picture>
 
 <p align="left">
-  <img src="https://streak-stats.demolab.com?user=MikeyBot111&theme=github-dark-blue&hide_border=true" alt="GitHub streak" height="120" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MikeyBot111&theme=github_dark" alt="GitHub stats" height="120" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MikeyBot111&theme=github_dark" alt="Most commit language" height="120" />
+  <img src="https://streak-stats.demolab.com?user=MikeyBot111&theme=github-dark-blue&hide_border=true" alt="GitHub streak" width="41%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MikeyBot111&theme=github_dark" alt="GitHub stats" width="27.5%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MikeyBot111&theme=github_dark" alt="Most commit language" width="27.5%" />
 </p>
 
 <p align="left"><img src="https://komarev.com/ghpvc/?username=MikeyBot111&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" /></p>
