@@ -1,6 +1,6 @@
-# Draws the contribution graph "snake" shown on the profile README.
+# Draws the dashboard panels and the contribution snake shown on the profile README.
 # The SVGs are published to the `output` branch, which the README links to.
-name: Generate contribution snake
+name: Generate profile images
 
 on:
   schedule:
@@ -17,13 +17,32 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Generate snake SVGs
+      - name: Check out scripts
+        uses: actions/checkout@v7
+
+      - name: Generate snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+          outputs: snk/snake.svg   # recoloured and framed by dashboard.py
+
+      - name: Draw dashboard panels
+        run: >
+          python3 scripts/dashboard.py "${{ github.repository_owner }}" dist
+          --snake snk/snake.svg --readme README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # The project rows follow the latest updated repos, so their links can change.
+      # Pushes made with GITHUB_TOKEN don't re-trigger this workflow.
+      - name: Commit README link changes
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898233+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update project links" README.md
+            git push
+          fi
 
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v5
